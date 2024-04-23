@@ -1,0 +1,56 @@
+.navbar-expand-lg .subItems {
+   display: flex !important;
+   flex-basis: auto;
+   float: right !important;
+}
+.navbar-expand-lg .navbar-brand{
+   margin: auto;
+   
+}
+.signin{
+   color: white !important;
+   margin-right: 20px;
+   padding: 5px 20px;
+   &&:hover{
+      color: black !important;
+      font-weight: 600;
+      border: 1px solid white;
+      background-color: goldenrod;
+   }
+}
+.navbar-brand{
+   color: white;
+   &&:hover{
+      color: white;
+   }
+}
+.navbar-toggler-icon{
+   background-color: aliceblue;
+}
+.navbar{
+   margin-bottom: 5em;
+}
+.textsAdvetisement{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+  
+}
+.companies{
+ 
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.companies li{
+   list-style-type: none;
+}
+.getStart{
+   text-decoration: none;
+   color: black;
+   padding: 8px 50px;
+   background-color: goldenrod;
+   border: none;
+}

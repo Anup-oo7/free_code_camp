@@ -1,0 +1,56 @@
+.container{
+    
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.accountCreation{
+    display: flex;
+}
+.login, .signup{
+    background-color: rgb(162, 243, 238);
+    border-radius: 20px;
+    height: 80vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.signup input {
+    width: 10em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+}
+.login input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: none;
+}
+.container input{
+    width: 100%;
+    
+}
+.container button{
+    border: none;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgb(51, 160, 238);
+    &&:hover{
+        color: rgb(51, 160, 238);
+        background-color: aliceblue;
+    }
+
+}
